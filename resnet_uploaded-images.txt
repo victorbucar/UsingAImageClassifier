@@ -1,0 +1,36 @@
+PRINTING FROM CLASSIFY IMAGES
+start classification  1
+start classification  2
+start classification  3
+start classification  4
+dict_items([('Cathedral_01.jpg', ['cathedral', 'radio telescope, radio reflector', 0]), ('Chihuahua_01.jpg', ['chihuahua', 'boston bull, boston terrier', 0]), ('Chihuahua_02.jpg', ['chihuahua', 'boston bull, boston terrier', 0]), ('Lion_01.jpg', ['lion', 'lion, king of beasts, panthera leo', 1])])
+dict_items([('n_images', 4), ('n_dogs_img', 2), ('pct_correct_dogs', 100.0), ('n_notdogs_img', 2), ('pct_correct_notdogs', 100.0), ('n_correct_breed', 0), ('pct_correct_breed', 0), ('n_correct_labels', 1), ('pct_label_match', 25.0)])
+
+**Results from print_result**
+
+CNN Model being used:  resnet
+
+Number of images:  4
+
+Number of dog images:  2
+
+Number of not a dog images:  2
+Printing statistics of the classification algorithm
+ 
+pct_correct_dogs: 100.0
+pct_correct_notdogs: 100.0
+pct_correct_breed: 0
+pct_label_match: 25.0
+
+Printing misclassified breeds
+
+Real:                  chihuahua   Classifier:    boston bull, boston terrier
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+Real:                  chihuahua   Classifier:    boston bull, boston terrier
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+
+** Total Elapsed Runtime: 0:0:1

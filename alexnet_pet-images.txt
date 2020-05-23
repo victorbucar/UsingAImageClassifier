@@ -1,0 +1,88 @@
+PRINTING FROM CLASSIFY IMAGES
+start classification  1
+start classification  2
+start classification  3
+start classification  4
+start classification  5
+start classification  6
+start classification  7
+start classification  8
+start classification  9
+start classification  10
+start classification  11
+start classification  12
+start classification  13
+start classification  14
+start classification  15
+start classification  16
+start classification  17
+start classification  18
+start classification  19
+start classification  20
+start classification  21
+start classification  22
+start classification  23
+start classification  24
+start classification  25
+start classification  26
+start classification  27
+start classification  28
+start classification  29
+start classification  30
+start classification  31
+start classification  32
+start classification  33
+start classification  34
+start classification  35
+start classification  36
+start classification  37
+start classification  38
+start classification  39
+start classification  40
+dict_items([('Basenji_00963.jpg', ['basenji', 'basenji', 1]), ('Basenji_00974.jpg', ['basenji', 'basenji', 1]), ('Basset_hound_01034.jpg', ['basset hound', 'basset, basset hound', 1]), ('Beagle_01125.jpg', ['beagle', 'beagle', 1]), ('Beagle_01141.jpg', ['beagle', 'english foxhound', 0]), ('Beagle_01170.jpg', ['beagle', 'walker hound, walker foxhound', 0]), ('Boston_terrier_02259.jpg', ['boston terrier', 'boston bull, boston terrier', 1]), ('Boston_terrier_02285.jpg', ['boston terrier', 'basenji', 0]), ('Boston_terrier_02303.jpg', ['boston terrier', 'boston bull, boston terrier', 1]), ('Boxer_02426.jpg', ['boxer', 'boxer', 1]), ('cat_01.jpg', ['cat', 'african hunting dog, hyena dog, cape hunting dog, lycaon pictus', 0]), ('cat_02.jpg', ['cat', 'tiger cat, cat', 1]), ('cat_07.jpg', ['cat', 'egyptian cat, cat', 1]), ('Cocker_spaniel_03750.jpg', ['cocker spaniel', 'cocker spaniel, english cocker spaniel, cocker', 1]), ('Collie_03797.jpg', ['collie', 'collie', 1]), ('Dalmatian_04017.jpg', ['dalmatian', 'dalmatian, coach dog, carriage dog', 1]), ('Dalmatian_04037.jpg', ['dalmatian', 'dalmatian, coach dog, carriage dog', 1]), ('Dalmatian_04068.jpg', ['dalmatian', 'dalmatian, coach dog, carriage dog', 1]), ('fox_squirrel_01.jpg', ['fox squirrel', 'fox squirrel, eastern fox squirrel, sciurus niger', 1]), ('gecko_02.jpg', ['gecko', 'alligator lizard', 0]), ('gecko_80.jpg', ['gecko', 'tree frog, tree-frog', 0]), ('German_shepherd_dog_04890.jpg', ['german shepherd dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1]), ('German_shepherd_dog_04931.jpg', ['german shepherd dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1]), ('German_shorthaired_pointer_04986.jpg', ['german shorthaired pointer', 'german shorthaired pointer', 1]), ('Golden_retriever_05182.jpg', ['golden retriever', 'tibetan mastiff', 0]), ('Golden_retriever_05195.jpg', ['golden retriever', 'golden retriever', 1]), ('Golden_retriever_05223.jpg', ['golden retriever', 'golden retriever', 1]), ('Golden_retriever_05257.jpg', ['golden retriever', 'afghan hound, afghan', 0]), ('Great_dane_05320.jpg', ['great dane', 'great dane', 1]), ('great_horned_owl_02.jpg', ['great horned owl', 'ruffed grouse, partridge, bonasa umbellus', 0]), ('Great_pyrenees_05367.jpg', ['great pyrenees', 'kuvasz', 0]), ('Great_pyrenees_05435.jpg', ['great pyrenees', 'great pyrenees', 1]), ('Miniature_schnauzer_06884.jpg', ['miniature schnauzer', 'miniature schnauzer', 1]), ('polar_bear_04.jpg', ['polar bear', 'ice bear, polar bear, ursus maritimus, thalarctos maritimus', 1]), ('Poodle_07927.jpg', ['poodle', 'standard poodle, poodle', 1]), ('Poodle_07956.jpg', ['poodle', 'standard poodle, poodle', 1]), ('Rabbit_002.jpg', ['rabbit', 'wood rabbit, cottontail, cottontail rabbit, rabbit', 1]), ('Saint_bernard_08010.jpg', ['saint bernard', 'saint bernard, st bernard', 1]), ('Saint_bernard_08036.jpg', ['saint bernard', 'saint bernard, st bernard', 1]), ('skunk_029.jpg', ['skunk', 'skunk, polecat, wood pussy', 1])])
+dict_items([('n_images', 40), ('n_dogs_img', 30), ('pct_correct_dogs', 100.0), ('n_notdogs_img', 10), ('pct_correct_notdogs', 100.0), ('n_correct_breed', 24), ('pct_correct_breed', 80.0), ('n_correct_labels', 30), ('pct_label_match', 75.0)])
+
+**Results from print_result**
+
+CNN Model being used:  alexnet
+
+Number of images:  40
+
+Number of dog images:  30
+
+Number of not a dog images:  10
+Printing statistics of the classification algorithm
+ 
+pct_correct_dogs: 100.0
+pct_correct_notdogs: 100.0
+pct_correct_breed: 80.0
+pct_label_match: 75.0
+
+Printing misclassified breeds
+
+Real:                     beagle   Classifier:               english foxhound
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+Real:             boston terrier   Classifier:                        basenji
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+Real:           golden retriever   Classifier:                tibetan mastiff
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+Real:           golden retriever   Classifier:           afghan hound, afghan
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+Real:             great pyrenees   Classifier:                         kuvasz
+Printing check 1:  2
+Printing check 1:  1
+Printing results_dic[key][2]:  0
+
+** Total Elapsed Runtime: 0:0:2
